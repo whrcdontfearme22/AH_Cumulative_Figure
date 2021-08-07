@@ -1,12 +1,10 @@
-<h1>arglebargle</h1>
-
-<div id="observablehq-f846ed14">
-  <div class="observablehq-canvas"></div>
+<div id="observablehq-8d840c8f">
+  <div class="observablehq-chart"></div>
 </div>
 <script type="module">
   import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-  import define from "https://api.observablehq.com/@fil/bonne-glsl.js?v=3";
+  import define from "https://api.observablehq.com/@wwctc/gfed4_graph.js?v=3";
   (new Runtime).module(define, name => {
-    if (name === "canvas") return Inspector.into("#observablehq-f846ed14 .observablehq-canvas")();
+    if (name === "chart") return Inspector.into("#observablehq-8d840c8f .observablehq-chart")();
   });
 </script>
