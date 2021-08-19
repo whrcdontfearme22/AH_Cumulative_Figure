@@ -1,10 +1,2 @@
-<div id="observablehq-8d840c8f">
-  <div class="observablehq-chart"></div>
-</div>
-<script type="module">
-  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-  import define from "https://api.observablehq.com/@wwctc/gfed4_graph.js?v=3";
-  (new Runtime).module(define, name => {
-    if (name === "chart") return Inspector.into("#observablehq-8d840c8f .observablehq-chart")();
-  });
-</script>
+<iframe width="100%" height="1083.03125" frameborder="0"
+  src="https://observablehq.com/embed/@wwctc/gfed4_graph?cells=chart"></iframe>
